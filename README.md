@@ -23,9 +23,11 @@ Installing eZ SaferPay Payment Gateway extension
 
 4. The following line of Javascript has to be executed on
    each request, the simplest way is to up it in the pagelayout.tpl
-<pre><code>
+```
+<script type="text/javascript>
    document.cookie='resolution='+Math.max(screen.width,screen.height)+'; path=/';
-</code></pre>
+</script>
+```
 5. Configure the Aliases corresponding to the different Screen resolutions in the 
 
 
