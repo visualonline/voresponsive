@@ -9,9 +9,6 @@ your responsive design.
 Installation
 ------------
 
-Installing eZ SaferPay Payment Gateway extension
-==============================================
-
 1. Install the package into the 'extension' directory in
    the root of your eZ publish installation.
 
